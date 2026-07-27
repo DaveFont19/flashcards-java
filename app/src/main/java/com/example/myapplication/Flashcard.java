@@ -1,0 +1,18 @@
+package com.example.myapplication;
+
+public class Flashcard {
+    private final String question, answer;
+
+    public Flashcard(String question, String answer){
+        this.question = question;
+        this.answer = answer;
+    }
+
+    public String getQuestion(){
+        return question;
+    }
+
+    public String getAnswer(){
+        return answer;
+    }
+}
